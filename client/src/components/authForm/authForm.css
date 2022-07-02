@@ -1,0 +1,59 @@
+.authForm{
+    position: relative;
+    background-color: #ffffff;
+    width: 60%;
+    height: 100%;
+    border-radius: 1rem;
+    padding: 0.5rem 3rem 0.5rem;
+    margin: 0
+}
+.authForm__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authForm__nameInput{
+    
+}
+.authForm__twitterLogo{
+    color: var(--twitter-color) !important;
+    font-size: 2.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+.authForm__disableButton{
+    background-color: gray !important;
+    color: #ffffff
+}
+.authForm__enableButton{
+    background-color: black !important;
+    color: #ffffff
+}
+.authForm__dateOfBirth{
+    display: flex;
+    justify-content: space-between;
+}
+.closeButton{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.7rem;
+    margin: 0
+}
+.authForm__content{
+    margin-bottom: 2rem
+}
+
+.authForm__nextButton{
+    
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    padding: 0.5rem !important;
+    border-radius: 80px !important;
+    margin-top: 1rem !important
+}
+
+.authForm__switchForm{
+    border: none !important;
+    font-size: 15px !important;
+    text-transform: none !important;
+}

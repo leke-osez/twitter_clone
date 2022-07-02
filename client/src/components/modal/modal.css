@@ -1,0 +1,11 @@
+.modal__positioning{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}

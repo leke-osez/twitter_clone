@@ -1,0 +1,110 @@
+.tweetBox{
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--twitter-background);
+    padding-right: 10px;
+    background-color: #ffffff;
+
+}
+
+.tweetBox__modal{
+    width: 500px;
+    border-radius: 8px;
+}
+
+.tweetBox__avatar{
+    height:50px !important;
+    width:50px !important
+}
+
+.tweetBox > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.tweetBox__input{
+    padding: 20px;
+    display: flex;
+}
+
+.tweetBox__input__modal{
+    margin-bottom: 1.5rem;
+}
+
+.tweetBox__input input{
+    flex:1;
+    margin-left: 20px;
+    font-size:20px;
+    border:none;
+    outline: none;
+    opacity: 70%;
+}
+
+
+.textbox__imageInput{
+    flex:1;
+    margin: 20px 0 0 50px;
+    font-size:17px;
+    border:none;
+    outline: none;
+    opacity: 70%;
+}
+
+.tweetBox__bottomSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0.1rem 0.3rem
+}
+.tweetBox__tweetButton{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    padding:0.3rem 0.8rem !important;
+}
+
+.tweetBox__prevImage{
+    position: relative;
+    width:auto;
+    background-color: var(--twitter-background);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+.tweetBox__prevImage > img{
+    position: relative;
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 300px;
+    border-radius: 10px;
+
+}
+.closeButtonPrev{
+    position: absolute !important;
+    padding: 0.2rem !important;
+    margin: 0 !important;
+    font-size: 9px !important;
+    min-width:20px !important;
+    min-height:20px !important;
+    top:0.2rem !important;
+    left:0.2rem !important;
+    color: white !important;
+    background-color: rgba(31, 30, 30, 0.726) !important;
+    border-radius: 50% !important;
+}
+input[type="file"] {
+    display: none;
+}
+
+.tweetBox__label{
+    margin-left: 1rem
+}
+
+.tweetBox__imgLogo{
+    color: var(--twitter-color)
+}

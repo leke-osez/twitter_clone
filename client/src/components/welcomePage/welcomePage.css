@@ -1,0 +1,13 @@
+.welcomePage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.welcomePage__text{
+    color: var(--twitter-color );
+    font-size: 48px;
+    margin-left:1.5rem
+}

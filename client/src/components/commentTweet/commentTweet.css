@@ -1,0 +1,87 @@
+
+.CommentTweet{
+    width: 500px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 1.2rem;
+}
+h4, P{
+    margin: 0;
+}
+
+.CommentTweet__reply > textarea{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    box-sizing: border-box;
+    resize: none;
+}
+.CommentTweet_Owner{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.CommentTweet__headerText{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.CommentTweet__image{
+    max-width: 500px;
+    min-width: 100px;
+    background-color: var(--twitter-background);
+}
+
+.CommentTweet__image > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.CommentTweet__avatar{
+    height:50px !important;
+    width:50px !important;
+    margin-right: 0.4rem !important
+}
+.CommentTweet__badge{
+    color: var(--twitter-color) !important;
+    font-size: 14px !important;
+}
+.CommentTweet__username{
+    font-size: 15px;
+    color: rgb(145, 144, 144)
+}
+
+.CommentTweet__tweet{
+    margin: 0.4rem 0;
+}
+.CommentTweet__form{
+    display: flex;
+    flex-direction: column;
+}
+.CommentTweet__reply{
+    display: flex;
+    align-items: center;
+}
+.CommentTweet__button{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    padding:0.3rem 0.8rem !important;
+    margin-left: auto !important;
+}
+
+.inlineText{
+    color: rgb(61, 155, 179) !important;
+}

@@ -1,0 +1,31 @@
+.titleBar{
+    width: auto;
+    height: 4px;
+    background-color: var(--twitter-color);
+    margin-top: 0.6rem;
+    border-radius: 40px;
+}
+
+.pageTitle{
+    width:fit-content;
+    cursor: pointer;
+    padding: 1.3rem 2rem 0
+}
+.pageTitle > p{
+    color: rgb(87, 85, 85);
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.pageTitle:hover {
+    background-color: rgb(208, 230, 230);
+}
+.hovering {
+    display: none;
+}
+.pageTitle:hover .hovering{
+    display:block;
+    
+}

@@ -1,0 +1,21 @@
+.CommentTweet__form{
+    display: flex;
+    flex-direction: column;
+}
+.CommentTweet__reply{
+    display: flex;
+    align-items: center;
+}
+.CommentTweet__button{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    padding:0.3rem 0.8rem !important;
+}
+.CommentTweet__avatar{
+    margin-right: 1rem !important
+}

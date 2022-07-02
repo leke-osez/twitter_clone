@@ -1,0 +1,26 @@
+.trendTable{
+    background-color: var(--twitter-background);
+    padding:  0.7rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    width:100%
+}
+
+
+.trendTable__list Link  {
+    text-decoration: none
+}
+
+.trendTable__heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trendTable__heading > h2{
+    font-weight: 700;
+}
+
+.trendTable__showMore{
+    color: var(--twitter-color)
+}

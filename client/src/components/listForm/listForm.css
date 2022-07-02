@@ -1,0 +1,75 @@
+.listForm{
+    position: relative;
+    height: auto;
+    width:90px;
+    margin-bottom: 0;
+
+}
+.listForm__big{
+    width: 110px
+}
+.listForm__list{
+    position: absolute;
+    bottom:50px;
+    padding: 0 !important;
+    left:0;
+    width: 100px;
+    height: 200px;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    box-shadow: 2px 2px 3px rgb(189, 188, 188);
+    z-index:30;
+}
+.listForm__list__large{
+    width: 120px
+}
+.listForm__list li{
+    list-style: none;
+    margin:0 !important;
+    margin-bottom: 0.2rem;
+    text-transform: none !important;
+
+    
+}
+.listForm__buttonContainer{
+    width: 100% !important;
+    padding: 0.1 0.1 !important;
+    border: 1px gray solid !important;
+    border-radius: 2px !important;
+}
+.listForm__button{
+    width: 100% !important;
+    display:flex !important;
+    flex-direction: column !important;
+    align-items: flex-start;
+    text-transform: none !important;
+    padding: 0 !important;
+    margin:0 !important
+}
+.listForm__buttonHead{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    margin: 0 !important;
+}
+
+.listForm__name{
+    font-size: 13px;
+    color: rgb(66, 63, 63);
+    margin:0;
+}
+
+.listForm__date{
+    margin: 0;
+}
+.hideList{
+    display: none;
+}
+
+.textActive{
+    color: var(--twitter-color) !important;
+}
+.buttonActive{
+    border-color: var(--twitter-color) !important;
+}

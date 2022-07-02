@@ -1,0 +1,40 @@
+.widgets{
+}
+.widgets__inputContainer{
+    flex:1;
+    z-index: 2;
+    position: sticky;
+    margin: 0;
+    top:0;
+    padding:1rem 1rem 0.2rem 1rem;
+    width:100%;
+    background-color: #FFFFFF;
+
+}
+.widgets__input{   
+    display: flex;
+    border-radius: 40px;
+    background-color: var(--twitter-background);
+    padding: 0.7rem 1rem
+}
+.widgets__input input{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+}
+.widgets__input .MuiSvgIcon-root{
+    opacity:55%;
+    margin-right: 0.5rem
+}
+
+.widget__trendTable{
+    padding:1rem 0 0.2rem 1rem;
+
+}
+.widgets__widgetContainer{
+    z-index: 1;
+    top: 0;
+    padding-left: 1.3rem;
+}

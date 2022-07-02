@@ -1,0 +1,35 @@
+.UserAvatar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Username__avatar{
+    margin:0 !important;
+    padding: 0 !important;
+}
+.UserName__name{
+    margin-left:0.2rem
+}
+.UserName__fullname{
+    font-weight: 600;
+    margin:0;
+    line-height: 12px;
+}
+
+.UserName__username{
+    color: gray;
+    font-size: 13px
+}
+
+.UserName__name{
+    margin-left:0.3rem
+}
+
+.Username__avatar{
+    position: relative;
+    width: 50px;
+    height: 50px
+}
+

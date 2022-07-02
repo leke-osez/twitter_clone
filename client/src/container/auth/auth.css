@@ -1,0 +1,183 @@
+.authPage{
+    width: 100%;
+    margin:0;
+
+}
+
+.authPage__content{
+    position:relative;
+    width: 100%;
+    display: flex;
+
+}
+.authPage__image{
+    position: relative;
+    width:55%;
+}
+.authPage__image img{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.authPage__twitterLogoBanner{
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 2!important;
+    top: 0;
+    left:0;
+    position: absolute !important;
+    color: white !important;
+}
+
+.authPage__auth{
+    padding: 2rem 0 1rem 4rem
+}
+
+.authPage__twitterLogo{
+    color: var(--twitter-color) !important;
+    font-size: 3rem !important;
+    margin-bottom: 2rem;
+}
+.authPage__auth > h1{
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.authPage__auth > h2{
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+
+.authPage__auth > p{
+    margin:3rem 0 1.5rem 0;
+    font-weight: 500;
+}
+.authPage__signUpButton{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0.5rem 0;
+    background-color: var(--twitter-color);
+    color:#FFFF;
+    cursor: pointer
+}
+
+.auth__googleSignUpButton{
+    background-color: none !important;
+    color: black!important;
+    border:1.7px solid rgb(209, 207, 207) !important;
+    border-radius: 40px !important;
+    margin-bottom: 2rem !important;
+    padding: 0.5rem 2rem !important;
+}
+.authPage__signInButton{
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(219, 217, 217);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0.5rem 0;
+    color: var(--twitter-color);
+    background-color: none;
+    cursor: pointer
+
+}
+
+@media screen and (max-width:1000px) {
+    .authPage__content{
+        position:relative;
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    .authPage__image{
+        width:100%;
+        height: 60%;
+    }
+
+    .authPage__image img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .authPage__auth{
+        padding: 2rem 0 3rem 9rem
+    }
+    .authPage__twitterLogo{
+        margin-bottom: 1rem;
+    }
+    .authPage__auth > h1{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 3rem;
+    }
+
+    .authPage__auth > h2{
+        font-size: 29px;
+        margin-bottom: 2rem;
+    }
+    .authPage button{
+        flex-wrap: wrap
+    }
+}
+
+@media screen and (max-width:550px) {
+    .authPage__content{
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    .authPage__image{
+        width:100%;
+        height: 50%;
+    }
+
+    .authPage__auth{
+
+        padding: 0.8rem 0 3rem 2rem
+    }
+    .authPage__twitterLogo{
+        margin-bottom: 0.5rem;
+    }
+    .authPage__auth > h1{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 2rem;
+    }
+
+    .authPage__auth > h2{
+        font-size: 20px;
+        margin-bottom: 1.5rem;
+    }
+
+    .authPage button{
+        width: 250px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+}
+
+@media screen and (max-width:300px){
+    .authPage button{
+        width:90%;
+        font-size: smaller;
+
+    }
+    .authPage__auth{
+        width:100%;
+        padding:0
+    }
+}
