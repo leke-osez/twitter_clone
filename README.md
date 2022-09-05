@@ -46,7 +46,7 @@ Navigate into the server directory <br>
 
 That is all you need to run the project 
 
-##TODO
+## TODO
 - [ ] Messaging feature
 - [ ] Responsive UI
 - [ ] Trend table algorithm
