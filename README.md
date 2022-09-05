@@ -32,7 +32,6 @@ Navigate into the client directory. <br>
    __REACT_APP_GOOGLE_AUTH_ID __ is your GoogleAuthId <br>
    __REACT_APP_GOOGLE_SECRET__ is your Google secret <br>
 7. now RUN `npm start`
-
 __Server Side__ <br>
 Navigate into the server directory <br>
 8. On your command line type and run `npm install` to install all dependencies.
