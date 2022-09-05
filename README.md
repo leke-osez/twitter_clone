@@ -46,7 +46,8 @@ Navigate into the server directory <br>
 
 That is all you need to run the project 
 
-## SOFT CAUTION
-My idea of this app was for testing and fun purposes so when writing an ideal app for commercial purposes, you will want to move your CRUD operations to a cloud function on the server-side, and query by some sort of routing although this is still sufficient.
-   
+##TODO
+- [ ] Messaging feature
+- [ ] Responsive UI
+- [ ] Trend table algorithm
 
