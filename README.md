@@ -23,7 +23,7 @@ MongoDB handles Database management
 1. Go ahead and clone this repo to your local machine.
 2. Make sure you have node installed.
 ### Client Side 
-Navigate into the client directory.
+Navigate into the client directory. <br>
 3. On your command line type and run `npm install` to install all dependencies.
 4. The client uses some environment variables so create a __.env__ file
 5. When done creating your .env file, you environment variables would contain your Google OAuth configurations for authentication
