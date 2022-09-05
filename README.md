@@ -29,7 +29,7 @@ Navigate into the client directory. <br>
 5. When done creating your .env file, you environment variables would contain your Google OAuth configurations for authentication
    See Google authentication and get the configuration parameters.
 6. Now in your __.env__ file; ADD the following variables <br>
-   __REACT_APP_GOOGLE_AUTH_ID __ is your GoogleAuthId <br>
+   __REACT_APP_GOOGLE_AUTH_ID__ is your GoogleAuthId <br>
    __REACT_APP_GOOGLE_SECRET__ is your Google secret <br>
 7. now RUN `npm start` <br>
 __Server Side__ <br>
@@ -40,7 +40,7 @@ Navigate into the server directory <br>
    Create a MonogDB project and extract the configuration parameters.
 11. Now in your __.env__ file; ADD the following variables <br>
    __CONNECTION_URL__ is your MongoDB connection URL <br>
-   __GOOGLE_CLIENT_ID __ is your Google Client Id <br>
+   __GOOGLE_CLIENT_ID__ is your Google Client Id <br>
    __GOOGLE_SECRET__ is your Google secret <br>
 12. now RUN `node start`
 
